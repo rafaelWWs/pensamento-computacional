@@ -29,20 +29,16 @@ nav{
 nav li{
     display: inline:
     margin-left 15px
-
 }
+
+nav a:hover{
+   transition: 0.2s;
+   color:red
+   text-decoration: underline;
+}
+
 nav a{
    color: black;
-  font-size: 30px;
-  text-decoration: none;
-}
-
-.titulo-principal{
-    color: red;
-    text-align: center;
-    font-size: 32px;
-     text-transform: uppercase;
-}
 
 body{
     background-color: red;
