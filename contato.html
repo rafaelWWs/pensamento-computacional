@@ -39,7 +39,7 @@
         <main>
        <form>
         <p>Os campos com* são obrigatórios</p>
-        <label for="Nomecompleto"</label>
+        <label for="Nomecompleto"> </label>
         <input class="input-padrao" type="text" id="nomecompleto"
         required placeholder="Nome e Sobrenome">
         
@@ -48,9 +48,43 @@
             required placeholder="seuemail@dominio.com">
 
 
-        <label for="email">Email*</label>
-        <input class="input-padrão" type="email" id="email"
-        required placeholder="seuemail@dominio.com">
+        <label for="telefone">Telefone*</label>
+        <input class="input-padrão" type="tel" id="telefone"
+        required placeholder="(xx)xxxxx-xxxx">
+
+        <label for="mensagem">Mesagem*</label>
+        <textarea cols="70" rows="5" id="mesagem" placeholder="Ex.: proximo sabado."></textarea>
+        <fieldset>
+      <legend>Em qual horario prefere seu atendimento</legend>
+        <select>
+        <opition>Manhã</opition>
+        <option>Tarde</option>
+        <option>Noite</option>
+        </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Como prefere o nosso contato?</legend>
+            <label for="radio-email">
+                <input type="radio" name="contato" value="email"
+                id="radio-email">
+                Email
+            </label>
+
+            <label for="radio-telfone"> 
+                <input type="radio" nome="contato" value="whatsapp"
+                id="radio-whatsapp" checked>
+                whatsapp
+            </label>
+        </fieldset>
+        <label class="checked"> Gostaria de receber nossas novidades 
+            por Email?
+
+            <input type="checkbox" checked>
+        </label>
+
+        <input class="enviar" type="submit" value="Enviar">
+        
        </form>
         </main>
 </body>
