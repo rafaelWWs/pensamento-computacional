@@ -41,6 +41,47 @@ nav a{
    color: black;
 }
 
+#banner{
+   width: 100%;
+   height: auto;
+}
+
+#utensilios{
+   width: 120px;
+   height: 120px;
+   float: left;
+   margin: auto 15px 15px auto;
+   border: 1px solid  #473e3b;
+}
+
+#utensilios:hover{
+  transition: 0.5s;
+  box-shadow: 3px 3px 2px #473e3b;
+  opacity: 75%;
+}
+
+.localização{
+   padding: 3rem 0;
+}
+
+.localização p{
+   margin-bottom: 2rem;
+   text-align: center;
+}
+
+.mapa{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.beneficios{
+   padding: 3em 0;
+}
+
+.conteudo-beneficios{
+  width: 640px;
+  margin: 10px auto;
+}
 body{
     background-color: white;
 }
